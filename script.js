@@ -1,5 +1,8 @@
-// Измененный код для перехода на другую страницу
 function invite() {
-    // Перенаправление на страницу invite.html
     window.location.href = "invite.html";
+}
+
+function deny() {
+    const audio = new Audio('audio/20499.ogg');
+    audio.play();
 }
